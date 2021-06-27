@@ -34,7 +34,7 @@ To calculate Y1(t), VAR will use the past values of both Y1 as well as Y2. Likew
 
 For example, the system of equations for a VAR(1) model with two time series (variables `Y1` and `Y2`) is as follows:
 
-https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_VAR1_Model-min.png
+    https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_VAR1_Model-min.png
 
 Where, Y{1,t-1} and Y{2,t-1} are the first lag of time series Y1 and Y2 respectively.
 
@@ -44,11 +44,11 @@ Since the Y terms in the equations are interrelated, the Y’s are considered as
 
 Likewise, the second order VAR(2) model for two variables would include up to two lags for each variable (Y1 and Y2).
 
-https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_VAR2_Model-min.png
+    https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_VAR2_Model-min.png
 
 Can you imagine what a second order VAR(2) model with three variables (Y1, Y2 and Y3) would look like?
 
-https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_VAR2_Model_with_three_Ys-min.png
+    https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_VAR2_Model_with_three_Ys-min.png
 
 As you increase the number of time series (variables) in the model the system of equations become larger.
 
