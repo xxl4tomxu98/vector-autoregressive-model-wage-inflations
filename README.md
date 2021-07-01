@@ -16,7 +16,7 @@ The primary difference is those models are uni-directional, where, the predictor
 If you remember in Autoregression models, the time series is modeled as a linear combination of it’s own lags. That is, the past values of the series are used to forecast the current and future.
 
 A typical AR(p) model equation looks something like this:
-    https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_ARp_Model-min.png
+    ![AR(p) Model Equations](https://www.machinelearningplus.com/wp-content/uploads/2019/07/Equation_ARp_Model-min.png)
 where α is the intercept, a constant and β1, β2 till βp are the coefficients of the lags of Y till order p.
 
 Order ‘p’ means, up to p-lags of Y is used and they are the predictors in the equation. The ε_{t} is the error, which is considered as white noise.
